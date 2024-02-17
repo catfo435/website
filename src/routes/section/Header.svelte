@@ -1,7 +1,7 @@
 <script>
 	import { goto } from "$app/navigation";
     import catlogo from "$lib/cat.png"
-    let navbarRoutes = ["Home","About","Projects"]
+    let navbarRoutes = ["Home","Projects"]
 
     /** @param {String} route */
     function handleRouteClick(route){
